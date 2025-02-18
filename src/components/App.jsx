@@ -13,7 +13,7 @@ export default function App() {
   const [editBookmark, setEditBookmark] = useState(null);
   const [bookmarks, setBookmarks] = useState([]);
 
-  const API_URL = "https://backend-bookmark-manager.onrender.com/bookmarks"; // Update with your backend URL
+  const API_URL ="https://backend-bookmark-manager.onrender.com/bookmarks"; // Update with your backend URL
 
   // Fetch bookmarks from backend
   const fetchBookmarks = async () => {
