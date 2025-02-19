@@ -118,7 +118,7 @@ function App() {
         {/* top menu mar for signout and heading of website */}
         <div className="header d-flex justify-content-between align-items-center m-3">
           {/* Left side - Bookmark Manager heading */}
-          <h1 className="fw-semibold">Bookmark Manager</h1>
+          <h1 className="fw-semibold pb-2 px-3">Bookmark Manager</h1>
 
           {/* Right side - Dropdown for Sign Out */}
           <div className="position-relative">
